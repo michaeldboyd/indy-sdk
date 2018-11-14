@@ -3,17 +3,16 @@
 site_name: Hyperledger Indy SDK
 # site_url: https://docs.sovrin.org/sdk
 repo_url: http://github.com/michaeldboyd/indy-sdk/
-repo_name: 'Indy-SDK'
-# edit_uri:
+edit_uri: edit/mkdocs-test/doc/
 nav:
 - Indy-SDK: 'index.md'
 - Test Design: 'test-design.md'
 docs_dir: 'doc/'
-site_dir: 
+use_directory_urls: false
+dev_addr: '127.0.0.1:8001'
+site_dir: '/home/mdb/code/sov/docs-site/sdk/'
 
-markdown+extensions:
+markdown_extensions:
   - toc:
-    permalink: "#"
-theme: 
-  name: readthedocs
-  custom_dir: custom_theme
+      permalink: "#"
+theme: readthedocs
