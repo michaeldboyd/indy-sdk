@@ -9,8 +9,6 @@ nav:
 - Test Design: 'test-design.md'
 docs_dir: 'doc/'
 use_directory_urls: false
-dev_addr: '127.0.0.1:8001'
- site_dir: '/home/mdb/code/sov/docs-site/sdk/'
 
 markdown_extensions:
   - toc:
